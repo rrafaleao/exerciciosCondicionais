@@ -25,4 +25,5 @@ if((conv == 2)){
 if((conv >= 3)){
     printf("Digite um número válido\n");
 }
+return false;
 }

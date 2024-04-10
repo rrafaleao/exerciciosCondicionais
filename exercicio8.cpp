@@ -21,5 +21,5 @@ int main(){
     if(imc >= 30){
         printf("Categoria: Obeso\n");
     }
-
+return false;
 }

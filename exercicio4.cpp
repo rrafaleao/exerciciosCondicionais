@@ -16,4 +16,5 @@ int main (){
     else {
         printf("Seu triangulo é Escaleno \n");
     }
+    return 0;
 }

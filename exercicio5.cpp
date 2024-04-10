@@ -2,20 +2,25 @@
 using namespace std;
 
 int main(){
-    int num1, num2, soma, subtracao, divisao, multiplicacao;
-    char sinal;
+    int num1, num2, sinal;
     printf("Digite Um número: ");
     scanf("%d", &num1);
     printf("Digite Um número: ");
     scanf("%d", &num2);
-    printf("Digite se quer soma, multiplicacao, subtracao ou divisao:");
-    scanf("%s", &sinal);
-
-    soma = num1 + num2;
-    subtracao = num1 - num2;
-    divisao = num1 / num2;
-    multiplicacao = num1 * num2;
-
+    printf("Digite 1 se quer somar, 2 multiplicar, 3 subtrair, 4 dividir: ");
+    scanf("%d", &sinal);
     
+    if(sinal == 1){
+        printf("%d\n", num1 + num2);
+    }
+    if(sinal == 2){
+        printf("%d\n", num1 * num2);
+    }
+    if (sinal == 3){
+        printf("%d\n", num1 - num2);
+    }
+    if(sinal == 4){
+        printf("%d\n", num1 / num2);
+    }
 }
     
